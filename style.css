@@ -1,0 +1,303 @@
+*{
+    margin: 0 auto;
+}
+body{
+    max-width: 1201px;
+}
+.person p{
+    padding-top: 12px;
+}
+.wrapper .person{
+    margin-bottom: 40px;
+}
+.print{
+    font-size: 16px;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#icon{
+    text-decoration: none;
+    font-size: 30px;
+}
+.search{
+    border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+      background-color: #ACD8E9;
+      font-size: 13px;
+}
+.input{
+    width: 150px;
+}
+.headline{
+    font-size: 18px;
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.container{
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    background-color: #ACD8E9;
+    border: 2px solid;
+    border-radius: 7px;
+}
+footer{
+    margin-top: 20px;
+    height: 230px;
+}
+#email{
+    font-size: 14px;
+}
+.footerContainer{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+footer p{
+    font-size: 14px;
+}
+
+@media print{
+    .container{
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    .print{
+        display: block !important;
+        text-align: center;
+    }
+    img{
+        display: none;
+    }
+    .search{
+        background-color: white;
+    }
+    header{
+        margin-bottom: 0px;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .wrapper .person{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .wrapper{
+        margin: 0px !important;
+    }
+    .person{
+        text-align: center;
+    }
+    .containerLeft{
+        display: none;
+    }
+    .containerRight{
+        width: 100%;
+        text-align: center !important;
+    }
+    .top{
+        margin-top: 0px;
+        width: 91%;
+    }
+    .middle{
+        margin-bottom: 0px;
+        width: 91%;
+    }
+    footer p{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 650px){
+    #headerHide{
+        display: none;
+    }
+    header{
+        height: 40px;
+    }
+    .print{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    .person{
+        width: 370px;
+        height: 180px;
+    }
+    footer{
+        width: 80%;
+    }
+    .footerRight{
+        width: 160px;
+        text-align: right;
+        margin-right: 30px;
+    }
+    .footerLeft{
+        width: 190px;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-left: 5px;
+    }
+    
+}
+
+@media (min-width: 651px) and (max-width: 1000px){
+    .wrapper{
+        margin: 5px;
+    }
+    .print{
+        display: none;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        max-width: 700px;
+    }
+    .middle{
+        display: flex;
+        justify-content: space-between;
+        max-width: 700px;
+    }
+    #icon{
+        display: none;
+    }
+    header{
+        height: 100px;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+        height: 50px;
+        font-size: 25px;
+    }
+    #hire{
+        margin-left: 40px;
+    }
+    #fire{
+        margin-right: 40px;
+    }
+    img{
+        width: 63px;
+        height: 63px;
+        margin-top: 7px;
+    }
+    .person{
+        display: flex;
+        width: 290px;
+        height: 180px;
+    }
+    .containerLeft{
+        margin-left: 15px;
+        width: 82px;
+    }
+    .containerRight{
+        text-align: left;
+        width: 180px;
+        padding: 2px;
+    }
+    footer{
+        width: 80%;
+        font-size: 12px;
+    }
+    .footerRight{
+        width: 160px;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    .footerLeft{
+        width: 36%;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 1001px){
+    .wrapper{
+        display: flex;
+        margin: 5px;
+    }
+    .print{
+        display: none;
+    }
+    .top{
+        display: flex;
+        width: 100%
+    }
+    .middle{
+        display: flex;
+        width: 100%;
+    }
+    #icon{
+        display: none;
+    }
+    header{
+        height: 100px;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+        height: 50px;
+        font-size: 25px;
+    }
+    #hire{
+        margin-left: 40px;
+    }
+    #fire{
+        margin-right: 40px;
+    }
+    .person{
+        display: flex;
+        width: 220px;
+        height: 190px;
+    }
+    img{
+        width: 55px;
+        height: 55px;
+        margin-top: 5px;
+    }
+    .containerLeft{
+        margin-left: 10px;
+        width: 75px;
+    }
+    .containerRight{
+        text-align: left;
+        width: 130px;
+        padding: 2px;
+    }
+    footer{
+        width: 80%;
+        height: 230px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #email{
+        font-size: 16px;
+    }
+    .footerLeft{
+        width: 350px;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-left: 5px;
+    }
+    .footerRight{
+        width: 160px;
+        text-align: right;
+        margin-right: 30px;
+    }
+}
