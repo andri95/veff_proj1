@@ -81,11 +81,41 @@ footer p{
     .search{
         background-color: white;
     }
+    #icon{
+        display: none;
+    }
     header{
+        height: 100px !important;
         margin-bottom: 0px;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+        height: 50px;
+        font-size: 25px;
+    }
+    #hire{
+        margin-left: 40px;
+    }
+    #fire{
+        margin-right: 40px;
+    }
+    #headerHide{
+        display: block !important;
     }
     footer{
         margin-top: 0px;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        max-width: 700px;
+    }
+    .middle{
+        display: flex;
+        justify-content: space-between;
+        max-width: 700px;
     }
     .wrapper .person{
         margin-top: 0px;
@@ -96,6 +126,7 @@ footer p{
     }
     .person{
         text-align: center;
+        width: 300px;
     }
     .containerLeft{
         display: none;
@@ -200,7 +231,7 @@ footer p{
     }
     .containerLeft{
         margin-left: 15px;
-        width: 82px;
+        width: 81px;
     }
     .containerRight{
         text-align: left;
@@ -272,11 +303,11 @@ footer p{
     }
     .containerLeft{
         margin-left: 10px;
-        width: 75px;
+        width: 73px;
     }
     .containerRight{
         text-align: left;
-        width: 130px;
+        width: 128px;
         padding: 2px;
     }
     footer{
